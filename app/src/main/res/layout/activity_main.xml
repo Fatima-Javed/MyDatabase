@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/vb"
+    android:padding="20dp"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/person"
+        android:layout_width="match_parent"
+        android:height="0dp"
+        android:padding="5dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:background="#D0B3DF"
+        android:drawableLeft="@drawable/person"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#D0B3DF"
+        android:drawableLeft="@drawable/surname"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:hint="Surname"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/marks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:background="#D0B3DF"
+        android:drawableLeft="@drawable/marks"
+        android:ems="10"
+        android:hint="Marks"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:background="#D0B3DF"
+        android:drawableLeft="@drawable/contact_phone"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:height="0dp"
+        android:hint="Contact Number"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#D0B3DF"
+        android:drawableLeft="@drawable/email"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:height="0dp"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/department"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#D0B3DF"
+        android:drawableLeft="@drawable/school"
+        android:ems="10"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:padding="5dp"
+        android:layout_weight="1"
+        android:hint="Department"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_baseline_room_24"
+        android:ems="10"
+        android:hint="Address"
+        android:background="#D0B3DF"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:onClick="demo1"
+            android:text="INSERT"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:backgroundTint="#9239BF" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:onClick="demo2"
+            android:text="VIEW"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            app:backgroundTint="#9239BF" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
